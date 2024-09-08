@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Regression">
+  <groups>
+  <run><include name="smoke"/>
+  </run>
+  </groups>
+    <classes>
+      <class name="testng_practice.Ex1_testng_basics"/>
+      <class name="testng_practice.Ex1_testng_basics2"/>
+       <class name="testng_practice.Ex1_testng_basics3"/>
+       <class name="testng_practice.Ex1_testng_basics4"/>
+      
+    </classes>
+  </test> <!-- modules -->
+  
+  </suite> <!-- department -->
+  

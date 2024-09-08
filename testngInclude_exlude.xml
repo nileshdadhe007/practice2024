@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="Personal loan">
+    <classes>
+      <class name="testng_practice.Ex1_testng_basics"/>
+      <class name="testng_practice.Ex1_testng_basics2"/>
+    </classes>
+  </test> <!-- modules -->
+  <test name="car loan">
+    <classes>
+      <class name="testng_practice.Ex1_testng_basics3">
+      <methods>
+      <exclude name="mobile.*"></exclude>
+      </methods>
+      </class>
+    </classes>
+  </test> <!-- modules -->
+  <test name="Home loan">
+    <classes>
+      <class name="testng_practice.Ex1_testng_basics4">
+      <methods>
+      <include name="loginAPIhomeLoan"></include>
+      </methods>
+      </class>
+    </classes> 
+  </test> <!-- modules -->
+</suite> <!-- department -->
